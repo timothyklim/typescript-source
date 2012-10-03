@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name      = 'typescript-source'
-  s.version   = '0.8.0'
+  s.version   = '0.8.0.1'
   s.date      = '2012-10-03'
 
   s.homepage    = "http://typescriptlang.org"
@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.files = [
     'lib/typescript/typescript.js',
     'lib/typescript/compiler.js',
+    'lib/typescript/lib.d.ts',
     'lib/typescript/source.rb'
   ]
 
